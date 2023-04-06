@@ -1,0 +1,84 @@
+$app: '.ff';
+
+
+:root {
+
+  // -----------------  Font Family  ------------------------//
+
+  --body-font:  'Poppins', sans-serif;
+
+
+  // -----------------  Font Sizes  ------------------------//
+
+  --fs-body: 14px;
+
+  --fs-heading: 36px;
+  --fs-section: 26px;
+  --fs-block: 20px;
+  --fs-para: 15px;
+
+  --fs-button: 18px;
+
+
+  // -----------------  Font weight  ------------------------//
+
+  --font-thin: 100;
+  --font-extralight: 200;
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+
+
+  // -----------------  Colors  ------------------------//
+  --color-body: #F5F5F5;
+  --color-primary: #2E2E54;
+;
+  --color-secondary:#16A6A7;
+
+  --color-navbar:#3C38CE;
+
+  --color-light : #ffffff;
+  --color-black:#000000;
+
+  --color-success: #4CAF50;
+  --color-danger: #DD425A;
+
+
+  // -----------------  Break points  ------------------------//
+  --sm: "576px";
+  --md: "768px";
+  --lg: "992px";
+  --xl: "1200px";
+  --xxl: "1400px";
+
+  --spacing-achivements: 120px;
+  --section-spacing: 60px;
+
+
+}
+
+html {
+  font-size: 14px;
+}
+body {
+  font-size: var(--fs-body);
+  font-family: var(--body-font);
+  background: var(--color-body);
+}
+
+
+@media (min-width: 992px) {
+  :root {
+    --fs-heading: 56px;
+    --fs-section: 36px;
+    --fs-block: 24px;
+    --fs-para: 16px;
+  
+    --fs-button: 20px;
+    --section-spacing: 80px;
+  }
+}

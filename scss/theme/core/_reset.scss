@@ -1,0 +1,206 @@
+/*--------------
+3.2.1 Reset
+----------------*/
+html {
+	font-size: 16px;
+}
+html,
+body {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+	font-family: $mont-regular;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	min-height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.content {
+	padding: 65px 0;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h1 a,
+h2,
+h2 a,
+h3,
+h3 a,
+h4,
+h4 a,
+h5,
+h5 a,
+h6 h6 a {
+	color: $dark;
+	font-family: $mont-regular;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $mont-semi-bold;
+}
+p,
+p a {
+	font-size: 1rem;
+	color: #a9a9a9;
+	font-family: $mont-regular;
+}
+a {
+	transition: all 0.4s ease;
+	color: #2b8ef5;
+}
+a:hover {
+	color: #3399ff;
+}
+.resize-none {
+	resize: none;
+}
+.p-cursor {
+	cursor: pointer;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.select-group select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: white url("../../assets/images/select-arrow.png") no-repeat
+		scroll 96% center;
+	background-color: white;
+}
+
+// block
+.d-content-block {
+	display: block;
+}
+
+.align-items-center {
+	align-items: center;
+}
+.text-black-color {
+	color: $black;
+}
+.text-blue-color {
+	color: #3399ff;
+}
+.text-red-color {
+	color: #ff6666;
+}
+.font-bold {
+	font-weight: bold;
+}
+// flex classes
+.flex-content {
+	display: flex;
+	align-items: center;
+}
+.flex-space {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex-space-start {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.brdr-100 {
+	border-radius: 100px;
+}
+
+// form-control
+
+.form-control {
+	padding: 1rem 1.9rem;
+}
+
+// select image
+.select-group select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../../assets/images/select-arrow-icon.png) 96% center
+		no-repeat #fff;
+}
+
+// video-icon-box
+.video-icon-box {
+	background-color: rgba($primary, 0.32);
+	display: flex;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+// flex-space-center
+.flex-space-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+// blog-banner-wrap
+div.blog-banner-wrap {
+	padding: 0px 0px;
+	min-height: 440px;
+	background-size: cover;
+}
+
+// meta-info
+.meta-info {
+	color: $gray-100;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+	background-color: transparent;
+}
+
+// container width wrap
+.container-width {
+	@media (min-width: 1199px) {
+		.container {
+			width: 100%;
+			max-width: 100%;
+			padding-left: 7%;
+			padding-right: 7%;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	h4 {
+		font-size: 1.5rem;
+	}
+}
+
+.pad-right-space {
+	padding-right: 60px;
+	@media (max-width: 991px) {
+		padding-right: 16px;
+	}
+}
+.pad-left-space {
+	padding-left: 60px;
+	@media (max-width: 991px) {
+		padding-left: 16px;
+	}
+}

@@ -1,0 +1,65 @@
+/*--------------
+3.3.1 Banner Section
+----------------*/
+.banner-wrap {
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0px;
+	background-position: bottom;
+	@media (max-width: 991px) {
+		padding: 150px 0px 70px 0px;
+	}
+	.bold-text {
+		font-weight: 500;
+		font-family: $mont-semi-bold;
+	}
+	.field-info {
+		padding: 10px 0px;
+		span {
+			margin-bottom: 5px;
+		}
+	}
+	.progress {
+		height: 10px;
+	}
+}
+// banner-overlay
+.banner-overlay {
+	position: relative;
+	.banner-sec-wrap {
+		position: relative;
+		margin-bottom: 30px;
+
+		.banner-profile-content {
+			.sec-title {
+				font-weight: 600;
+				color: $primary;
+			}
+			.btn-wrap {
+				display: flex;
+				flex-wrap: wrap;
+				.btn {
+					&:first-child {
+						margin-right: 10px;
+					}
+					font-family: $mont-regular;
+					font-size: 16px;
+					border-radius: 100px;
+					padding: 15px 20px;
+					@media (max-width: 991px) {
+						padding: 14px 16px;
+					}
+				}
+			}
+		}
+	}
+}
+// div.banner-overlay {
+@media (max-width: 768px) {
+	.banner-wrap .image-wrap {
+		text-align: center;
+		img {
+			display: inline-block;
+		}
+	}
+}

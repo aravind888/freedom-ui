@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ffreedom app</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<div class="ff">
+
+		<!-- HEADER -->
+		<header class="ff-header py-2">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="logo" /></a>
+					<div class="d-lg-none ms-auto">
+						<span class="ff-header__search d-flex align-items-center justify-content-center"><img src="./images/icons/search.svg" /></span>
+						<form class="d-flex d-none">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+							<div><img src="" /></div>
+							<button class="btn btn-outline-success" type="submit">Search</button>
+						</form>
+					</div>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"><img src="./images/icons/menu.svg" /></span>
+					</button>
+					<div class="collapse navbar-collapse pt-3 pt-md-0" id="navbarSupportedContent">
+						<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+							<li class="nav-item dropdown me-md-4">
+								<a class="nav-link dropdown-toggle ff-header__lnk" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Farming Courses
+									<span class="ms-2"><img src="./images/icons/arrow-down.svg" /></span>
+								</a>
+								<ul class="dropdown-menu ff-header__submenu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item ff-header__submenu-lnk" href="#">Action</a></li>
+									<li><a class="dropdown-item ff-header__submenu-lnk" href="#">Another action</a></li>
+									<li><a class="dropdown-item ff-header__submenu-lnk" href="#">Something else here</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown me-md-4">
+								<a class="nav-link dropdown-toggle ff-header__lnk" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Business Courses
+									<span class="ms-2"><img src="./images/icons/arrow-down.svg" /></span>
+								</a>
+								<ul class="dropdown-menu ff-header__submenu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item ff-header__submenu-lnk" href="#">Action</a></li>
+									<li><a class="dropdown-item ff-header__submenu-lnk" href="#">Another action</a></li>
+									<li><a class="dropdown-item ff-header__submenu-lnk" href="#">Something else here</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle ff-header__lnk" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Personal Finance Courses
+									<span class="ms-2"><img src="./images/icons/arrow-down.svg" /></span>
+								</a>
+								<ul class="dropdown-menu ff-header__submenu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item ff-header__submenu-lnk" href="#">Action</a></li>
+									<li><a class="dropdown-item ff-header__submenu-lnk" href="#">Another action</a></li>
+									<li><a class="dropdown-item ff-header__submenu-lnk" href="#">Something else here</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="d-flex align-items-center ms-lg-4">
+							<div class="d-none d-lg-block">
+								<span class="ff-header__search d-flex align-items-center justify-content-center"><img src="./images/icons/search.svg" /></span>
+								<form class="d-flex d-none">
+									<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+									<div><img src="" /></div>
+									<button class="btn btn-outline-success" type="submit">Search</button>
+								</form>
+							</div>
+							<li class="nav-item dropdown ms-lg-4">
+								<form>
+									<select class="ff-header__dropdown ff-header__dropdown--border">
+										<option >English</option>
+										<option>Kannada</option>
+										<option>Tamil</option>
+										<option>Malayalam</option>
+									</select>
+									<!-- <div><img src="./images/icons/arrow-down.svg" /></div> -->
+								</form>
+							</li>
+					</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- HEADER -->
+
+		<main class="ff-main">
+			<!-- SECTION - HERO -->
+			<section class="ff-section ff-hero ff-section--dark">
+				<div class="ff-section__inwrap container">
+					<div class="row align-items-center">
+						<div class="col-md-6">
+							<div class="pe-md-5 mb-3 mb-md-0">
+								<div class="ff-title__hero font-medium mb-3">Investments</div>
+								<div class="ff-hero__img-wrap d-md-none mb-3">
+									<img class="img-fluid" src="./images/hero.png" alt="">
+								</div>
+								<p class="ff-para ff-text--light mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, Lorem ipsum dolor sit amet, 
+									consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
+									Lorem ipsum dolor sit amet.
+								</p>
+								<a class="ff-button__primary" href="">View all courses</a>
+							</div>
+						</div>
+						<div class="col-md-6 d-none d-md-block">
+							<div class="ff-hero__img-wrap">
+								<img class="img-fluid" src="./images/hero.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- SECTION - HERO -->
+
+			<!-- SECTION - ACHIVEMENTS -->
+			<section class="ff-section ff-section__achivements pt-0 px-3 px-md-0">
+				<div class="ff-section__inwrap container">
+					<div class="ff-achivements row">
+						<div class="ff-achivement text-center col-md-6">
+							<div class="ff-achivement__count font-medium">30+</div>
+							<div class="ff-title__block ff-achivement__title mb-2">Video courses</div>
+							<p class="ff-para ff-text--gray ff-achivement__para px-5">on food processing & packaged food business</p>
+						</div>
+						<div class="ff-achivement text-center col-md-6">
+							<div class="ff-achivement__count font-medium">9,000+</div>
+							<div class="ff-title__block ff-achivement__title mb-2">Course Completions</div>
+							<p class="ff-para ff-text--gray ff-achivement__para px-5">Be a part of the learning community of food processing & packaged food business</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- SECTION - ACHIVEMENTS -->
+
+			<!-- SECTION - MENTORS -->
+			<section class="ff-section ff-section__mentors ff-section--green">
+				<div class="ff-section__inwrap container">
+					<div class="ff-mentors__title-wrap text-center mb-5">
+						<div class="ff-title__section ff-text--light mb-3 font-medium">Learn from 20+ mentors</div>
+						<p class="ff-para ff-para__m ff-text--light">Successful and renowned mentors teach you their secrets, tips & tricks, best practices in food processing & packaged food business.</p>
+					</div>
+					<div class="position-relative">
+						<div class="swiper mySwiper">
+							<div class="ff-mentors swiper-wrapper">
+								<div class="ff-mentor swiper-slide">
+									<div class="ff-mentor__img">
+										<img class="w-100" src="./images/mentor.jpg" alt="mentor" />
+									</div>
+									<div class="ff-mentor__content mt-3 mb-4">
+										<div class="ff-title__block ff-mentor__content-name font-medium">Satyam Tiwari</div>
+										<div class="ff-mentor__content-location">Bengaluru, Karnataka</div>
+									</div>
+								</div>
+								<div class="ff-mentor swiper-slide">
+									<div class="ff-mentor__img">
+										<img class="w-100" src="./images/mentor.jpg" alt="mentor" />
+									</div>
+									<div class="ff-mentor__content mt-3 mb-4">
+										<div class="ff-title__block ff-mentor__content-name font-medium">Satyam Tiwari</div>
+										<div class="ff-mentor__content-location">Bengaluru, Karnataka</div>
+									</div>
+								</div>
+								<div class="ff-mentor swiper-slide">
+									<div class="ff-mentor__img">
+										<img class="w-100" src="./images/mentor.jpg" alt="mentor" />
+									</div>
+									<div class="ff-mentor__content mt-3 mb-4">
+										<div class="ff-title__block ff-mentor__content-name font-medium">Satyam Tiwari</div>
+										<div class="ff-mentor__content-location">Bengaluru, Karnataka</div>
+									</div>
+								</div>
+								<div class="ff-mentor swiper-slide">
+									<div class="ff-mentor__img">
+										<img class="w-100" src="./images/mentor.jpg" alt="mentor" />
+									</div>
+									<div class="ff-mentor__content mt-3 mb-4">
+										<div class="ff-title__block ff-mentor__content-name font-medium">Satyam Tiwari</div>
+										<div class="ff-mentor__content-location">Bengaluru, Karnataka</div>
+									</div>
+								</div>
+								<div class="ff-mentor swiper-slide">
+									<div class="ff-mentor__img">
+										<img class="w-100" src="./images/mentor.jpg" alt="mentor" />
+									</div>
+									<div class="ff-mentor__content mt-3 mb-4">
+										<div class="ff-title__block ff-mentor__content-name font-medium">Satyam Tiwari</div>
+										<div class="ff-mentor__content-location">Bengaluru, Karnataka</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex justify-content-between position-absolute top-0 bottom-0 mx-auto w-100">
+							<div class="swiper-button-prev ff-swiper__button ff-swiper__button-prev"></div>
+							<div class="swiper-button-next ff-swiper__button ff-swiper__button-next"></div>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			<!-- SECTION - MENTORS -->
+
+			<!-- SECTION - INVESTMENTS -->
+			<section class="ff-section ff-section__investments">
+				<div class="ff-section__inwrap container">
+					<div class="ff-title__section font-medium mb-5">Why learn about Investments?</div>
+					<ul class="ff-investments">
+						<li class="ff-investment font-medium mb-4 d-flex">
+							<div class="mt-2 me-3 flex-shrink"><img src="./images/icons/check_circle.svg" /></div>
+							<div>
+								<div class="ff-title__block ff-investment__title mb-1">Finance for everyone</div>
+								<p class="ff-investment__para ff-para ff-text--dark-gray fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+							</div>
+						</li>
+						<li class="ff-investment font-medium mb-4 d-flex">
+							<div class="mt-2 me-3 flex-shrink"><img src="./images/icons/check_circle.svg" /></div>
+							<div>
+								<div class="ff-title__block  ff-investment__title mb-1">Personal finance 101</div>
+								<p class="ff-investment__para ff-para ff-text--dark-gray fw-normal">ffreedom app financial courses cover everything you need, from securing your financial future, to strengthening your business finances. We have wide range of courses designed for beginners as well as financial experts.</p>
+							</div>
+						</li>
+						<li class="ff-investment font-medium d-flex">
+							<div class="mt-2 me-3 flex-shrink"><img src="./images/icons/check_circle.svg" /></div>
+							<div>
+								<div class="ff-title__block  ff-investment__title mb-1">ffreedom app commitment</div>
+								<p class="ff-investment__para ff-para ff-text--dark-gray fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- SECTION - INVESTMENTS -->
+
+			<!-- SECTION - LATEST -->
+			<section class="ff-section ff-section--purple ff-section__latest">
+				<div class="ff-section__inwrap container">
+					<div class="text-uppercase ff-latest__title mb-4">JUST launched</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="position-relative">
+								<img class="w-100" src="./images/video-thumbnail.jpg" />
+								<div class="ff-button__video-wrap position-absolute">
+									<button class="ff-button__video d-flex align-items-center">
+										<div class="ff-button__video-icon"><img src="./images/icons/play.svg" /></div>
+										<span class="ff-button__video-text">Watch trailer</span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="ff-latest__content ps-lg-3 mt-3 mt-lg-0">
+								<div class="ff-title__section ff-latest__content-title mb-3 font-medium">All you must know about National Savings Certificate (NSC)</div>
+								<p class="ff-para">Welcome to our comprehensive course, "All You Must Know About National Savings Certificate (NSC)", which provides you with a detailed understanding of what is National Saving Certificate and its significance in India.
+									This course covers all the details of the National Savings Certificates in India, including eligibility, documents required, 
+									maturity period, and premature withdrawal policies. You'll also learn about the tax benefits of NSC, making it an attractive 
+									investment option for many. Less
+								</p>
+								<div class="text-end mt-3">
+									<a class="ff-button__secondary">View course 
+										<span class="ff-button__secondary-icon ms-2">
+											<svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none">
+												<path d="M0.50002 0.71051C0.11002 1.10051 0.11002 1.73051 0.50002 2.12051L4.38002 6.00051L0.50002 9.88051C0.11002 10.2705 0.11002 10.9005 0.50002 11.2905C0.89002 11.6805 1.52002 11.6805 1.91002 11.2905L6.50002 6.70051C6.89002 6.31051 6.89002 5.68051 6.50002 5.29051L1.91002 0.70051C1.53002 0.32051 0.89002 0.32051 0.50002 0.71051Z" fill="#16A6A7"/>
+											</svg>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</section>
+			<!-- SECTION - LATEST -->
+
+			<!-- SECTION - COURSES -->
+			<section class="ff-section ff-section__light ff-section__courses">
+				<div class="ff-section__inwrap container">
+					<div class="ff-title__section font-medium mb-5">Courses under Investments </div>
+					<div class="row">
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="ff-course">
+								<div class="ff-course__img-wrap position-relative">
+									<img class="w-100" src="./images/course/thumbnail-nsc.jpg" alt="nsc" />
+									<div class="ff-course__top position-absolute w-100 bottom-0 d-flex justify-content-between p-2">
+										<div class="ff-course__rating"><span class="ff-icon__star me-1"><img src="./images/icons/star.svg" /></span> 4.4 from 2.2k reviews</div>
+										<div class="ff-course__viewes">
+											<span class="ff-icon__star me-1"><img src="./images/icons/visibility.svg" /></span>
+											20,000
+										</div>
+									</div>
+								</div>
+								<div class="ff-course__content">
+									<div class="ff-para font-medium ff-course__content-title mb-2">All you must know about National Savings Certificate (NSC)</div>
+									<div class="ff-course__content-para">Discover the secure way to invest with national savings certificate(NSC)</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="ff-course">
+								<div class="ff-course__img-wrap position-relative">
+									<img class="w-100" src="./images/course/thumbnail-recuiring-deposit.jpg" alt="nsc" />
+									<div class="ff-course__top position-absolute w-100 bottom-0 d-flex justify-content-between p-2">
+										<div class="ff-course__rating"><span class="ff-icon__star me-1"><img src="./images/icons/star.svg" /></span> 4.4 from 2.2k reviews</div>
+										<div class="ff-course__viewes">
+											<span class="ff-icon__star me-1"><img src="./images/icons/visibility.svg" /></span>
+											20,000
+										</div>
+									</div>
+								</div>
+								<div class="ff-course__content">
+									<div class="ff-para font-medium ff-course__content-title mb-2">Recurring deposit - earns interest rate up to 7.5 percentage</div>
+									<div class="ff-course__content-para">Do you want complete information about RD? So in this course, you will get full details about RD.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="ff-course">
+								<div class="ff-course__img-wrap position-relative">
+									<img class="w-100" src="./images/course/thumbnail-rbi-retail.jpg" alt="nsc" />
+									<div class="ff-course__top position-absolute w-100 bottom-0 d-flex justify-content-between p-2">
+										<div class="ff-course__rating"><span class="ff-icon__star me-1"><img src="./images/icons/star.svg" /></span> 4.4 from 2.2k reviews</div>
+										<div class="ff-course__viewes">
+											<span class="ff-icon__star me-1"><img src="./images/icons/visibility.svg" /></span>
+											20,000
+										</div>
+									</div>
+								</div>
+								<div class="ff-course__content">
+									<div class="ff-para font-medium ff-course__content-title mb-2">RBI retail direct- now directly buy government securities</div>
+									<div class="ff-course__content-para">Investors can purchase and sell government assets by earning a greater interest rate on bonds than on a regular bank FD.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4 mb-4">
+							<div class="ff-course">
+								<div class="ff-course__img-wrap position-relative">
+									<img class="w-100" src="./images/course/thumbnail-public-provident.jpg" alt="nsc" />
+									<div class="ff-course__top position-absolute w-100 bottom-0 d-flex justify-content-between p-2">
+										<div class="ff-course__rating"><span class="ff-icon__star me-1"><img src="./images/icons/star.svg" /></span> 4.4 from 2.2k reviews</div>
+										<div class="ff-course__viewes">
+											<span class="ff-icon__star me-1"><img src="./images/icons/visibility.svg" /></span>
+											20,000
+										</div>
+									</div>
+								</div>
+								<div class="ff-course__content">
+									<div class="ff-para font-medium ff-course__content-title mb-2">Public provident fund- invest Rs.500 per month & get over 1 lakh after maturity</div>
+									<div class="ff-course__content-para">The government-backed scheme of PPF is the best investment options one can go for. Learn more about it here!</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="mt-4 text-end">
+						<a class="ff-button__secondary ff-button__secondary-xl ml-auto">View course 
+							<span class="ff-button__secondary-icon ms-2">
+								<svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" fill="none">
+									<path d="M0.50002 0.71051C0.11002 1.10051 0.11002 1.73051 0.50002 2.12051L4.38002 6.00051L0.50002 9.88051C0.11002 10.2705 0.11002 10.9005 0.50002 11.2905C0.89002 11.6805 1.52002 11.6805 1.91002 11.2905L6.50002 6.70051C6.89002 6.31051 6.89002 5.68051 6.50002 5.29051L1.91002 0.70051C1.53002 0.32051 0.89002 0.32051 0.50002 0.71051Z" fill="#16A6A7"/>
+								</svg>
+							</span>
+						</a>
+					</div>				
+				</div>
+			</section>
+			<!-- SECTION - COURSES -->
+
+		</main>
+
+
+		<!-- FOOTER -->
+		<footer class="ff-footer ff-section ff-section--dark">
+			<div class="ff-footer__wrap container">
+				<div class="row">
+					<div class="col-lg-4 col-xl-5 ff-footer__col">
+						<div class="ff-footer__content mb-5">
+							<div class="ff-text--light">ffreedom app vision</div>
+							<p class="ff-para fw-bold ff-text--light">To Empower Every Individual to Earn a Livelihood</p>
+						</div>
+						<div class="ff-footer__scanner">
+							<div class="ff-footer__title">Scan to download </div>
+							<div class="ff-footer__scanner-wrap">
+								<img src="./images/scanner.png" />
+							</div>
+						</div>
+						<div class="ff-footer__app mt-5">
+							<div class="ff-footer__title">Get the app</div>
+							<ul class="">
+								<li class="mb-3"><img src="./images/app-store.png" /></li>
+								<li><img src="./images/playstore.png" /></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-xl-4 mt-5 mt-lg-0">
+						<div class="ff-footer__content">
+							<div class="ff-footer__title">Courses in Kannada</div>
+							<ul class="ff-footer__lnks">
+								<li class="ff-footer__lnk"><a>Farming courses in Kannada</a></li>
+								<li class="ff-footer__lnk"><a>Business courses in Kannada</a></li>
+								<li class="ff-footer__lnk"><a>Personal finance courses in Kannada</a></li>
+							</ul>
+						</div>
+
+						<div class="ff-footer__content">
+							<div class="ff-footer__title">Courses in Tamil</div>
+							<ul class="ff-footer__lnks">
+								<li class="ff-footer__lnk"><a>Farming courses in Tamil</a></li>
+								<li class="ff-footer__lnk"><a>Business courses in Tamil</a></li>
+								<li class="ff-footer__lnk"><a>Personal finance courses in Tamil</a></li>
+							</ul>
+						</div>
+
+						<div class="ff-footer__content">
+							<div class="ff-footer__title">Courses in Telugu</div>
+							<ul class="ff-footer__lnks">
+								<li class="ff-footer__lnk"><a>Farming courses in Telugu</a></li>
+								<li class="ff-footer__lnk"><a>Business courses in Telugu</a></li>
+								<li class="ff-footer__lnk"><a>Personal finance courses in Telugu</a></li>
+							</ul>
+						</div>
+
+						<div class="ff-footer__content">
+							<div class="ff-footer__title">Courses in English</div>
+							<ul class="ff-footer__lnks">
+								<li class="ff-footer__lnk"><a>Farming courses in English</a></li>
+								<li class="ff-footer__lnk"><a>Business courses in English</a></li>
+								<li class="ff-footer__lnk"><a>Personal finance courses in English</a></li>
+							</ul>
+						</div>
+
+						<div class="ff-footer__content">
+							<div class="ff-footer__title">Courses in Hindi</div>
+							<ul class="ff-footer__lnks">
+								<li class="ff-footer__lnk"><a>Farming courses in Hindi</a></li>
+								<li class="ff-footer__lnk"><a>Business courses in Hindi</a></li>
+								<li class="ff-footer__lnk"><a>Personal finance courses in Hindi</a></li>
+							</ul>
+						</div>
+
+						<div class="ff-footer__content">
+							<div class="ff-footer__title">Courses in Malayalam</div>
+							<ul class="ff-footer__lnks">
+								<li class="ff-footer__lnk"><a>Farming courses in Malayalam</a></li>
+								<li class="ff-footer__lnk"><a>Business courses in Malayalam</a></li>
+								<li class="ff-footer__lnk"><a>Personal finance courses in Malayalam</a></li>
+							</ul>
+						</div>
+
+					</div>
+
+					<div class="col-lg-4 col-xl-3">
+						<div class="ff-footer__content">
+							<div class="ff-footer__title">ffreedom app</div>
+							<ul class="ff-footer__lnks">
+								<li class="ff-footer__lnk"><a>Our story</a></li>
+								<li class="ff-footer__lnk"><a>About app</a></li>
+								<li class="ff-footer__lnk"><a>Our team</a></li>
+								<li class="ff-footer__lnk"><a>Directors</a></li>
+								<li class="ff-footer__lnk"><a>Careers</a></li>
+								<li class="ff-footer__lnk"><a>ffreedom blog</a></li>
+							</ul>
+						</div>
+						<div class="ff-footer__content">
+							<div class="ff-footer__title">Contact us</div>
+							<ul class="ff-footer__lnks">
+								<li class="ff-footer__lnk"><a href="tel: 080 69415400"><span class="ff-footer__contact-icon me-3"><img src="./images/icons/phone.svg" /></span> 080 69415400</a></li>
+								<li class="ff-footer__lnk"><a href="mailto: contact@ffreedom.com"><span class="ff-footer__contact-icon me-3"><img src="./images/icons/mail.svg" /></span> contact@ffreedom.com</a></li>
+								<li class="ff-footer__lnk"><a href=""><span class="ff-footer__contact-icon me-3"><img src="./images/icons/location_on.svg" /></span> ffreedom app office location <span class="ff-footer__icon-arrow"></span></a></li>
+							</ul>
+						</div>
+
+						<div class="ff-footer__content">
+							<div class="ff-footer__title">Connect with us on</div>
+							<ul class="ff-footer__lnks d-flex align-items-center">
+								<li class="ff-footer__lnk"><a class="ff-footer__social-icon" href="" target="_blank"><span><img src="./images/icons/facebook.svg" /></span></a></li>
+								<li class="ff-footer__lnk"><a class="ff-footer__social-icon" href="" target="_blank"><span><img src="./images/icons/youtube.svg" /></span></a></li>
+								<li class="ff-footer__lnk"><a class="ff-footer__social-icon" href="" target="_blank"><span><img src="./images/icons/instagram.svg" /></span></a></li>
+								<li class="ff-footer__lnk"><a class="ff-footer__social-icon" href="" target="_blank"><span><img src="./images/icons/twitter.svg" /></span></a></li>
+								<li class="ff-footer__lnk"><a class="ff-footer__social-icon" href="" target="_blank"><span><img src="./images/icons/linkedin.svg" /></span></a></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- FOOTER -->
+
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+	<!-- Swiper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+	  var swiper = new Swiper(".mySwiper", {
+		slidesPerView: 1.4,
+		spaceBetween: 50,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+		pagination: {
+		  el: ".swiper-pagination",
+		  clickable: true,
+		},
+		breakpoints: {
+			640: {
+				slidesPerView: 2,
+				spaceBetween: 20,
+			},
+			768: {
+				slidesPerView: 2.4,
+				spaceBetween: 40,
+			},
+			1024: {
+				slidesPerView: 3.4,
+				spaceBetween: 50,
+			},
+		},
+	  });
+	</script>
+</body>
+
+</html>

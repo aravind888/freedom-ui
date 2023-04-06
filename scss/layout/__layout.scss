@@ -1,0 +1,23 @@
+@import './footer',"./header";
+
+#{$app}- {
+    &section {
+        padding: var(--section-spacing) 0;
+
+        &-- {
+            &dark {
+                background: var(--color-primary);
+            }
+            &green {
+                background: var(--color-secondary);
+            }
+            &purple {
+                background: #F7F7FF;
+            }
+        }
+
+        @media (min-width: 768px) {
+            padding: var(--section-spacing) 0;
+        }
+    }
+}

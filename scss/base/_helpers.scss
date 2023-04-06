@@ -1,0 +1,48 @@
+.font- {
+    &medium {
+        font-weight: 500;
+    }
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearence: none;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.ff-swiper__button {
+    width: 40px !important;
+    height: 40px !important;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 100px;
+    position: relative !important;
+
+    @media (min-width: 992px) {
+        width: 65px !important;
+        height: 65px !important;
+    }
+
+    &::after {
+        font-size: 16px !important;
+        color: #fff !important;
+        font-weight: 700;
+        @media (min-width: 992px) {
+            font-size: 22px !important;
+        }
+    }
+    @media (min-width: 992px) {    
+
+        &- {
+            &next {
+                right: -86px !important;
+            }
+            &prev {
+                left: -86px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+#{$app}- {
+    &button {
+        &__ {
+            &primary {
+                font-size: var(--fs-button);
+                line-height: calc(var(--fs-button) + 10px);
+                background-color: var(--color-secondary);
+                color: var(--color-light);
+                padding: 12px 50px;
+                border-radius: 8px;
+
+                @media (min-width: 992px) {
+                    padding: 12px 100px;
+                }
+            }
+            &secondary {
+                color: var(--color-secondary);
+                background: none;
+                font-size: var(--ff-para);
+
+                &:hover {
+                    
+                }
+
+                &- {
+                    &xl {
+                        font-size: var(--fs-button);
+                    }
+                }
+            }
+            &video {
+                padding: 10px;
+                background: #EEF5FF;
+                border-radius: 50px;
+                font-size: var(--fs-button);
+
+                &- {
+                    &wrap {
+                        bottom: 10px;
+                        right: 10px;
+                    }
+                    &icon {
+                        width: 34px;
+                        height: 34px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 2px solid;
+                        border-radius: 100px;
+
+                        & img {
+                            margin-left: 2px;
+                        }
+                    }
+                    &text {
+                        margin-left: 10px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+#{$app}- {
+    &title {
+        &__ {
+
+            &hero {
+                font-size: var(--fs-heading);
+                color: var(--color-light);
+            }
+            
+            &section {
+               font-size: var(--fs-section);
+               line-height: calc(var(--fs-section) + 10px);
+               color: var(--color-primary);
+            }
+
+            &block {
+                font-size: var(--fs-block);
+                line-height: calc(var(--fs-block) + 10px);
+                color: var(--color-primary);
+            }
+        }
+    }
+    
+    &para {
+        font-size: var(--fs-para);
+        line-height: calc(var(--fs-para) + 10px);
+        color: var(--color-primary);
+
+        &__ {
+            &m {
+                font-size: calc(var(--fs-para) + 4px);
+                line-height: calc(var(--fs-para) + 10px);
+            }
+        }
+    }
+
+    &text {
+        &-- {
+            &light {
+                color: var(--color-light);
+            }
+            &primary {
+                color: var(--color-primary);
+            }
+            &gray {
+                color: #696F8C;
+            }
+            &dark-gray {
+                color: #3D404F;
+            }
+            
+        }
+    }
+}

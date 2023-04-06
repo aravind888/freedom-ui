@@ -1,0 +1,27 @@
+/* FONTS */
+@font-face {
+	font-family: "montregular";
+	src: url("../fonts/fontfabric---mont-regular-webfont.woff2") format("woff2"),
+		url("../fonts/fontfabric---mont-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "montsemibold";
+	src: url("../fonts/fontfabric---mont-semibold-webfont.woff2") format("woff2"),
+		url("../fonts/fontfabric---mont-semibold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+// mont font
+
+$mont-semi-bold: "montsemibold";
+.mont-semibold {
+	font-family: $mont-semi-bold !important;
+}
+
+$mont-regular: "montregular";
+.bold {
+	font-family: $mont-regular !important;
+}
